@@ -1,0 +1,17 @@
+p {
+    font-size: 70px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.text span {
+    color: #ff7200;
+    font-weight: bold;
+}
+
+.gg span {
+    color: gray;
+    font-weight: bold;
+}

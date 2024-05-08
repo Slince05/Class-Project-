@@ -1,0 +1,212 @@
+ body a {
+     float: right;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 62px;
+     margin-top: 10px;
+     font-size: 20px;
+     color: #ffffff;
+     text-decoration: none;
+     font-family: Arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+     padding-right: 10px;
+ }
+
+ a:hover {
+     color: orange;
+ }
+
+
+ .search-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 0px;
+ }
+
+ .search {
+     border: none;
+     /* Remove border */
+     border-radius: 20px;
+     /* Rounded corners */
+     padding: 10px 20px;
+     /* Padding inside the search box */
+     font-size: 16px;
+     /* Font size */
+     background-color: #ffffff;
+     /* White background */
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     /* Shadow */
+     transition: box-shadow 0.3s ease;
+     /* Smooth transition */
+     width: 200px;
+     /* Width of the search box */
+ }
+
+ .search:focus {
+     outline: none;
+     /* Remove outline */
+     box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+     /* Blue shadow when focused */
+ }
+
+ .search-btn {
+     border: none;
+     /* Remove border */
+     border-radius: 20px;
+     /* Rounded corners */
+     background-color: #007bff;
+     /* Light blue button color */
+     color: #fff;
+     /* White text color */
+     padding: 10px 20px;
+     /* Padding inside the button */
+     font-size: 16px;
+     /* Font size */
+     cursor: pointer;
+     /* Cursor style */
+     transition: background-color 0.3s ease;
+     /* Smooth transition */
+ }
+
+ .search-btn:hover {
+     background-color: #0056b3;
+     /* Darker blue color on hover */
+ }
+
+ .content {
+     width: 1200px;
+     height: auto;
+     margin: auto;
+     color: #fff;
+     position: relative;
+ }
+
+ .content .par {
+     padding-left: 20px;
+     padding-bottom: 25px;
+     font-family: Arail;
+     letter-spacing: 1.2px;
+     line-height: 30px;
+ }
+
+ .content h1 {
+     font-family: 'Time New Roman';
+     font-size: 50px;
+     padding-left: 20px;
+     margin-top: 2px;
+     letter-spacing: 2px;
+ }
+
+.cn {
+     width: 160px;
+     height: 40px;
+     background: #ff7200;
+     border: none;
+     margin-bottom: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 18px;
+     border-radius: 15px;
+     cursor: pointer;
+     transition: 0.3s ease;
+     text-decoration: none;
+     color: #fff;
+ }
+
+
+
+
+ .cn:hover a {
+     background-color: #ff7200;
+ }
+
+ .content span {
+     color: #ff7200;
+     font-size: 60px;
+ }
+
+ .form {
+     width: 250px;
+     height: 380px;
+     background: linear-gradient(to top, rgba(0, 0, 0, 0, 8)50%, rgba(0, 0, 0, 0, 8)50%);
+     position: absolute;
+     top: -20px;
+     left: 870px;
+     border-radius: 10px;
+     padding: 25px;
+ }
+
+ .form h2 {
+     width: 220px;
+     font-family: sans-serif;
+     text-align: center;
+     color: #ff7200;
+     font-size: 22px;
+     background-color: black;
+     border-radius: 10px;
+     margin: 2px;
+     padding: 8px;
+ }
+
+ .form input {
+     width: 240px;
+     height: 35px;
+     background: black;
+     border-bottom: 1px solid #ff7200;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     color: #ff7200;
+     font-size: 15px;
+     border-radius: 10px;
+     margin-top: 30px;
+     letter-spacing: 1px;
+     font-family: sans-serif;
+    }
+
+ .form input:focus {
+     outline: none;
+ }
+
+ ::placeholder {
+     color: #fff;
+     font-family: Arial;
+ }
+
+ .btn {
+     width: 240px;
+     height: 40px;
+     background: #ff7200;
+     border: none;
+     margin-top: 30px;
+     font-size: 18px;
+     border-radius: 10px;
+     cursor: pointer;
+    }
+
+ .btn:hover {
+     background: #fff;
+     color: #ff7200;
+ }
+
+ .btn a {
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+ }
+
+ .form  {
+     font-family: Arial, Helvetica, sans-serif;
+     color: lightskyblue;
+     font-size: 1၀px;
+     padding-top: 20px;
+     text-align: center;
+    font-weight: bolder;
+    }
+
+ .form .link a {
+     color: #ff7200;
+ }
+
